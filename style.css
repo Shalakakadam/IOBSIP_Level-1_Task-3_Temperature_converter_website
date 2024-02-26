@@ -1,0 +1,75 @@
+
+* {
+    padding: 0;
+    margin: 0;
+    font-family: cursive;
+    color: rgb(237, 75, 121);
+}
+
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    text-align: center;
+    background-color: azure;
+    background-image: url(https://images.unsplash.com/photo-1598361610131-a9d8a8607c67?q=80&w=1974&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);
+    background-size: cover;
+}
+
+#calcTemp {
+    padding: 29px 67px;
+    min-height: 290px;
+    background-color: #ade6f5;
+    border-radius: 36%;
+    
+}
+
+label {
+    font-size: 30px;
+    line-height: 78px;
+    font-family: cursive;
+    color: rgb(88, 30, 98);
+}
+
+#temp {
+    width: 120px;
+    height: 24px;
+    border-radius: 15px;
+    margin: 12px;
+    padding: 8px;
+    font-size: 20px;
+    border: none;
+    color: rgb(223, 68, 107);
+
+}
+
+#temp_diff {
+    width: 136px;
+    height: 40px;
+    border-radius: 15px;
+    margin: 12px;
+    font-size: 20px;
+    border: none;
+    color: rgb(223, 68, 107);
+}
+
+#submit {
+    width: 100px;
+    margin: 30px 0 30px 0;
+    font-size: 24px;
+    background-color: rgb(180, 237, 190);
+    color: rgb(223, 68, 107);
+    padding: 5px;
+    border-radius: 25%;
+}
+
+#submit:hover{
+    background-color: rgb(207, 142, 237);
+    cursor: pointer;
+}
+
+#result{
+    font-size: 27px;
+}
